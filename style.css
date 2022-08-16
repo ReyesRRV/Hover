@@ -22,6 +22,7 @@ body {
   overflow: hidden;
 }
 
+
 button {
   border: none;
   background: none;
@@ -233,7 +234,7 @@ button:focus {
   position: absolute;
   background: rgb(255, 200, 0);
   left: 0%;
-  transform: translate(calc(-1 * var(--mg-left)), -50%);
+  /* transform: translate(calc(-1 * var(--mg-left)), -50%); */
 }
 .info .location::before {
   top: 50%;
